@@ -27,7 +27,6 @@ t2.pendown()
 t2.shape('turtle')
 t2.color('red')
 
-# Loop until turtles are within 100 pixels of each other
 while t1.distance(t2) > 100:
     random_step(t1)
     random_step(t2)
